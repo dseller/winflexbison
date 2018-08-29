@@ -859,16 +859,16 @@ char *yytext;
 #define skel_wrap() 1
 
 #define FLEX_PREFIX(Id) skel_ ## Id
-#include <src/flex-scanner.h>
+#include <flex-scanner.h>
 
 #include <dirname.h>
 #include <error.h>
 #include <quotearg.h>
 
-#include <src/complain.h>
-#include <src/getargs.h>
-#include <src/files.h>
-#include <src/scan-skel.h>
+#include <complain.h>
+#include <getargs.h>
+#include <files.h>
+#include <scan-skel.h>
 
 #define YY_DECL static int skel_lex (void)
 YY_DECL;

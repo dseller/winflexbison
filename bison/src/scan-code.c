@@ -881,14 +881,14 @@ char *yytext;
 #define code_wrap() 1
 
 #define FLEX_PREFIX(Id) code_ ## Id
-#include <src/flex-scanner.h>
+#include <flex-scanner.h>
 
-#include <src/complain.h>
-#include <src/reader.h>
-#include <src/getargs.h>
-#include <src/muscle-tab.h>
-#include <src/scan-code.h>
-#include <src/symlist.h>
+#include <complain.h>
+#include <reader.h>
+#include <getargs.h>
+#include <muscle-tab.h>
+#include <scan-code.h>
+#include <symlist.h>
 
 #include <c-ctype.h>
 #include <get-errno.h>

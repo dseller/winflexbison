@@ -1254,21 +1254,21 @@ char *yytext;
 
 #define FLEX_PREFIX(Id) gram_ ## Id
 #include "obstack.h"
-#include <src/flex-scanner.h>
+#include <flex-scanner.h>
 
-#include <src/complain.h>
-#include <src/files.h>
-#include <src/getargs.h>
-#include <src/gram.h>
+#include <complain.h>
+#include <files.h>
+#include <getargs.h>
+#include <gram.h>
 #include <quotearg.h>
-#include <src/reader.h>
-#include <src/uniqstr.h>
+#include <reader.h>
+#include <uniqstr.h>
 
 #include <c-ctype.h>
 #include <mbswidth.h>
 #include <quote.h>
 
-#include <src/scan-gram.h>
+#include <scan-gram.h>
 
 #define YY_DECL GRAM_LEX_DECL
 
