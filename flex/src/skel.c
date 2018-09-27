@@ -450,7 +450,6 @@ const char *skel[] = {
   "%if-c-only",
   "#include \"stdlib.h\"",
   "#include \"stdio_compat.h\"",
-  "#include <services/memory/heap.h>",
   "%endif",
   "",
   "%if-tables-serialization",
